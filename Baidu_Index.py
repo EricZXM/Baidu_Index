@@ -182,4 +182,5 @@ if __name__ == '__main__':
 
     dataframe = pd.DataFrame(dataframe)
     dataframe.set_index('date',inplace=True)
-    dataframe.to_csv("BaiduIndex.csv", encoding='utf_8_sig')
+    filename = city + "_" + Keyword + "_" + startdate[0:4] + "-" + enddate[0:4] +"_BaiduIndex.csv"
+    dataframe.to_csv(filename, encoding='utf_8_sig')
