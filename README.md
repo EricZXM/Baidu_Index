@@ -1,4 +1,5 @@
-# 百度指数爬虫 Baidu Index Crawler
+# Baidu Index
+百度搜索指数爬虫 
 ## 1. 下载Chrome Driver (有提供，可直接下载)
 ## 2. 在setting.py里按指示填入所有要求的信息
 ## 3. 运行GetCookies.py
